@@ -1,0 +1,170 @@
+.ui-toolbar {
+    position: relative;
+    min-width: 320px;
+    height: 44px;
+    z-index: 2;
+
+    background-color: #3e98f0;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+}
+
+.ui-toolbar-l, .ui-toolbar-r{
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ui-toolbar-l{
+    top:0;
+    left:0;
+}
+
+.ui-toolbar-r{
+    top:0;
+    right:0;
+}
+
+.ui-toolbar-title {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 44px;
+}
+
+.ui-toolbar-btn {
+    width: 34px;
+    height: 100%;
+
+    font-size: 15px;
+    line-height: 44px;
+}
+
+.ui-toolbar-l .ui-toolbar-btn {
+    float: left;
+}
+
+.ui-toolbar-r .ui-toolbar-btn {
+    float: left;
+}
+
+.ui-toolbar-btn.press{
+}
+
+
+
+
+
+
+/* specific to pages */
+.btn-product{
+    background-position: center -50px;
+}
+
+.btn-modelopen{
+    background-position: center -425px;
+}
+
+.btn-baidu {
+    background-position: center 4px;
+}
+
+.btn-subscribe {
+    background-position: center -107px;
+}
+
+.btn-search {
+    background-position: center -162px;
+}
+
+.btn-back {
+    background-position: center -216px;
+}
+
+.btn-config {
+    background-position: center -273px;
+}
+
+.btn-home {
+    background-position: center -369px;
+}
+
+.btn-dld {
+    background-position: center -319px;
+}
+
+.btn-manage-sub,
+.btn-ori {
+    width: auto;
+    padding-right: 10px;
+}
+
+
+.btn-nav {
+    position: relative;
+    width: 40px;
+    font-size: 15px;
+}
+
+.btn-nav span {
+    position: absolute;
+    top: 13px;
+    left: -2px;
+    display: block;
+    width: 1px;
+    height: 16px;
+    border-left: 1px solid #5dabf0;
+}
+
+.btn-close,
+.btn-img {
+    height: 28px;
+    border: 1px solid #3671d9;
+}
+.btn-close, .btn-send{
+    width:auto;
+    padding-right: 10px;
+    border:none;
+    line-height: 44px;
+    height: 100%;
+}
+
+.btn-back.press {
+}
+
+.btn-more {
+    background-position: 7px -123px;
+}
+
+#image_view header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#image_view .ui-toolbar , 
+#album_view .ui-toolbar {
+    background-image:none;
+    background-color: #303030;
+    border-color: transparent;
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+
+#image_view .ui-toolbar-btn.press, 
+#album_view .ui-toolbar-btn.press{
+    background-color: #2e2e2e;
+}
+
+#image_view .ui-toolbar-title , 
+#album_view .ui-toolbar-title {
+    font-size: 14px;
+}
+
+#search_view .ui-toolbar-title {
+    width: 100px;
+    height: 44px;
+}
+

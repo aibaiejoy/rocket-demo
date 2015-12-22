@@ -1,0 +1,37 @@
+/*页面视图id，与action同名，以_page为后缀*/
+#detail_page{
+    /*默认不展示*/
+    display:none;
+
+    /*绝对定位*/
+    position:absolute;
+
+    /*撑满整个父容器*/
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    /*最低高度，确保即使没内容，loading也可以展示，同时能遮住下方内容*/
+    background: url('../../../img/index_bg.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    
+    /*阻止文本选中*/
+    /*-webkit-user-select:none;
+    -moz-user-select:none;*/
+}
+
+#detail_page_content{
+    /*作为绝对定位的loading样式的容器，需要使用relative定位*/
+    position:relative;
+}
+
+
+@import url("detail_content.less?__inline");
+@import url("detail_footer.less?__inline");
+
+/*#detail_page_content *{
+    -webkit-transform:translateZ(0);
+}
+*/

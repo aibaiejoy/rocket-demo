@@ -1,0 +1,191 @@
+#detail_page_content {
+  /*公司名称*/
+  /*@media screen and (max-width: 320px ) {
+	    .result-footer{
+	        height: 84px;
+	    }
+	    .c-content{
+	        height: 170px;
+	    }
+	}
+
+	@media screen and (max-width: 320px ) and (max-height:480px) {
+	    .result-footer{
+	        height: 80px;
+	    }
+	    .c-content{
+	        height: 80px;
+	    }
+	}*/
+  /*table*/
+  /*用户评分区*/
+}
+#detail_page_content .detail-view-subpage {
+  background: url('/static/news/other/summary/summary/page/detail/img/c-content-table-bg_1c46efb.png') repeat;
+  background-size: 30px 30px;
+}
+#detail_page_content .c-name {
+  text-align: center;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 10px;
+  border-bottom: 1px solid #c97b8b;
+}
+#detail_page_content .c-content {
+  overflow: hidden;
+  /*height: 180px;*/
+  overflow-y: visible;
+}
+#detail_page_content .c-content .c-content-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#detail_page_content .c-content-table {
+  width: 100%;
+  table-layout: fixed;
+}
+#detail_page_content .c-content-table .c-content-table-title {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 18px;
+}
+#detail_page_content .c-content-table .c-content-table-title span {
+  padding: 10px 0;
+  background: url('/static/news/other/summary/summary/page/detail/img/summary-icon_b6769b5.png') no-repeat -20px -206px;
+  background-size: 150px 900px;
+}
+#detail_page_content .c-content-table th {
+  height: 46px;
+  line-height: 46px;
+  font-size: 20px;
+  /*background: url('../img/summary-icon.png') no-repeat -30px -210px ;
+			background-size: 150px 900px;*/
+}
+#detail_page_content .c-content-table td {
+  height: 36px;
+  line-height: 36px;
+}
+#detail_page_content .c-content-table td img {
+  vertical-align: middle;
+  height: 32px;
+  margin-right: 3px;
+}
+#detail_page_content .c-content-table tr {
+  border-top: 1px solid #dee1e1;
+}
+#detail_page_content .c-content-table tr.first-tr {
+  border-top: none;
+}
+#detail_page_content .c-content-table td,
+#detail_page_content .c-content-table th {
+  padding-left: 10px;
+}
+#detail_page_content .c-content-table .even {
+  width: 20%;
+  text-align: center;
+  border-left: 1px solid #cb7b85;
+}
+#detail_page_content .c-content-table .c-content-self-score {
+  vertical-align: middle;
+  color: #d72c00;
+  font-size: 20px;
+}
+#detail_page_content .logo-baidu:after {
+  content: " : 百度";
+  /*background: url('../../result/img/logo-baidu.png') no-repeat ;*/
+}
+#detail_page_content .logo-alibaba:after {
+  content: " : 阿里巴巴";
+  /*background: url('../../result/img/logo-alibaba.png') no-repeat ;   */
+}
+#detail_page_content .logo-tengxun:after {
+  content: " : 腾讯";
+  /*background: url('../../result/img/logo-tengxun.png') no-repeat ;*/
+}
+#detail_page_content .logo-xiaomi:after {
+  content: " : 小米";
+  /*background: url('../../result/img/logo-xiaomi.png') no-repeat ;*/
+}
+#detail_page_content .logo-jd:after {
+  content: " : 京东";
+  /*background: url('../../result/img/logo-jd.png') no-repeat ;*/
+}
+#detail_page_content .logo-jumei:after {
+  content: " : 聚美";
+  /*background: url('../../result/img/logo-jumei.png') no-repeat ;*/
+}
+#detail_page_content .logo-chuizi:after {
+  content: " : 锤子";
+  /*background: url('../../result/img/logo-chuizi.png') no-repeat ;*/
+}
+#detail_page_content .logo-huawei:after {
+  content: " : 华为";
+  /*background: url('../../result/img/logo-huawei.png') no-repeat ;*/
+}
+#detail_page_content .logo-momo:after {
+  content: " : 陌陌";
+  /*background: url('../../result/img/logo-momo.png') no-repeat ;*/
+}
+#detail_page_content .logo-360:after {
+  content: " : 360";
+  /*background: url('../../result/img/logo-360.png') no-repeat ;*/
+}
+#detail_page_content .logo-lenovo:after {
+  content: " : 联想";
+  /*background: url('../../result/img/logo-lenovo.png') no-repeat ;*/
+}
+#detail_page_content .logo-icon {
+  /*display: inline-block;*/
+  /*float:left;*/
+  height: 44px;
+  width: 80%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  /*background-size: auto 30px;
+	    background-position: 80px center;*/
+}
+.detail-content-dialog {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: scroll;
+}
+.detail-content-dialog-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.detail-content-dialog-inner {
+  margin: 20px;
+  color: #000;
+  height: 70%;
+  font-size: 16px;
+  background-color: #fff;
+  padding: 36px 10px 10px;
+  position: relative;
+}
+.detail-content-dialog-close {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url('/static/news/other/summary/summary/page/detail/img/summary-icon_b6769b5.png') no-repeat -5px -415px;
+  background-size: 150px 900px;
+  width: 30px;
+  height: 30px;
+}
+.detail-content-dialog-inner img {
+  width: 100%;
+  margin: 10px 0;
+  float: left;
+}
+.detail-content-dialog-inner p {
+  line-height: 1.5em;
+  text-indent: 2em;
+}

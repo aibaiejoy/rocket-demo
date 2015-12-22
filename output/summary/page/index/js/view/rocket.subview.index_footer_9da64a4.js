@@ -1,0 +1,1 @@
+!function(){rocket.subview.index_footer=rocket.subview.extend({el:"#index_page > .page-footer",events:{},tpl:"",init:function(){var e=this;e.showLoading(e.$el),e.render()},registerEvents:function(){},render:function(){var e=this;e.$el.append(_.template(e.tpl,{pageName:"标题"})),e.show(),e.hideLoading(-1)}})}(Zepto);

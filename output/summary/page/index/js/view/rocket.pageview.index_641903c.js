@@ -1,0 +1,1 @@
+!function(e){rocket.pageview.index=rocket.pageview.extend({el:"#index_page",init:function(t){var n=this;n.setup(new rocket.subview.index_header(e.extend({},t),n)),n.setup(new rocket.subview.index_footer(e.extend({},t),n)),n.setup(new rocket.subview.index_content(e.extend({},t),n))}})}(Zepto);

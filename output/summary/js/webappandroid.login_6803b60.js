@@ -1,0 +1,1 @@
+!function(n){function e(){return i.helper.cookieGet("BDUSS")}function o(){return!!e()}var i=window.webappandroid=window.webappandroid||{},t=i.login=i.login||{};n.extend(t,{getBDUSS:e,isLoggedIn:o})}(Zepto);

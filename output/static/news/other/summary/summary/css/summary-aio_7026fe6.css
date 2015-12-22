@@ -1,0 +1,369 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+html,body,form,fieldset,p,div,h1,h2,h3,h4,h5,h6{-webkit-text-size-adjust:none}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{font-family:arial,sans-serif}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+#wrapper{position:absolute;top:0;left:0;right:0;bottom:0}
+.color-bottom-border{height:2px;padding:0 10px 0 0;background-color:#2a6ac0}
+.color-bottom-border .border-left{float:left;width:126px;height:2px;background-color:#00902c}
+.nowrap{text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+.summary-common-btn{height:40px;line-height:40px;text-align:center;width:134px;color:#fff;background-color:#0797d1;border:1px solid #88acbf}
+.pl10{padding-left:10px}
+.grid-layout{padding:0 0 0 10px}
+.grid-layout .grid{overflow:hidden}
+.grid-layout .grid .bd{border:1px solid #ccc}
+.grid-layout .grid .cell{width:50%;float:left}
+.grid-layout .grid .cell .cell-content{margin-right:10px;overflow:hidden}
+.grid-layout .grid .cell .cell-content img{width:100%;vertical-align:middle}
+.grid-layout .grid .cell .cell-content .cell-title{font-size:13px;line-height:1.5em;color:#262b31;padding:7px 0 16px}
+.grid-layout .grid .cell:nth-last-child(1) .cell-content .cell-title,.grid-layout .grid .cell:nth-last-child(2) .cell-content .cell-title{padding-bottom:0}
+.grid-layout .col-3 .cell{width:33.33333333333334%}
+.grid-layout .col-3 .cell .bd{padding:2px}
+.special-title{padding:0 10px 10px}
+.special-title .special-title-txt{border-bottom:2px solid #2a6ac0}
+.special-title .special-title-txt header{border-bottom:2px solid #00902c;margin-bottom:-2px;width:auto;display:inline-block;font-size:18px;line-height:1.5em}
+.special-title .special-title-txt header small{font-size:13px;margin-left:5px}
+.special-title .special-title-txt span{float:right;margin-top:3px;margin-right:0}
+.gray-line{color:#c5c5c5;font-size:10px;margin-top:2px;vertical-align:middle;display:inline-block;padding:0 5px 0 8px}
+.fb{_width:100%;overflow:hidden;clear:both}
+.c20l,.c25l,.c33l,.c40l,.c38l,.c50l,.c60l,.c62l,.c66l,.c75l,.c80l{float:left}
+.c20r,.c25r,.c33r,.c40r,.c38r,.c50r,.c60r,.c66r,.c62r,.c75r,.c80r{float:right;margin-left:-5px}
+.c20l,.c20r{width:20%}
+.c40l,.c40r{width:40%}
+.c60l,.c60r{width:60%}
+.c80l,.c80r{width:80%}
+.c25l,.c25r{width:25%}
+.c33l,.c33r{width:33.333%}
+.c50l,.c50r{width:50%}
+.c66l,.c66r{width:66.666%}
+.c75l,.c75r{width:75%}
+.c38l,.c38r{width:38.2%}
+.c62l,.c62r{width:61.8%}
+.ta-r{text-align:right}
+.ta-l{text-align:left}
+.ta-c{text-align:center}
+.p{padding:20px}
+.pt{padding-top:20px}
+.pr{padding-right:20px}
+.pb{padding-bottom:20px}
+.pl{padding-left:20px}
+.ptb{padding:20px 0}
+.plr{padding:0 20px}
+.bd{border:2px solid #fff}
+.bdr{border-right:2px solid #fff}
+.bdl{border-left:2px solid #fff}
+.bdlr{border-left:2px solid #fff;border-right:2px solid #fff}
+.bdt{border-top:2px solid #fff}
+.bdb{border-bottom:2px solid #fff}
+.bdtb{border-top:2px solid #fff;border-bottom:2px solid #fff}
+.ui-refresh-wrapper{padding:14px 40px}
+.ui-refresh{height:36px;line-height:36px;background-color:#eef0f2;text-align:center;border:1px solid #d2d9e0}
+.ui-refresh:active{background-color:#e2e6eb}
+.ui-refresh-pullup-icon{display:inline-block;width:20px;height:20px;background:transparent url(http://wap.baidu.com/static/news/webapp_pro/img/refresh.png) 0 0 no-repeat;background-size:40px 20px;margin-right:8px;vertical-align:middle}
+.ui-refresh .ui-refresh-pullup-icon{-webkit-transition-property:-webkit-transform;-webkit-transition-duration:400ms;-webkit-transition-timing-function:ease-in-out;-webkit-transform:rotate(180deg)}
+.ui-refresh.ui-refresh-flip .ui-refresh-pullup-icon{-webkit-transform:rotate(0deg) translateZ(0)!important}
+.ui-refresh.ui-refresh-flip-origin .ui-refresh-pullup-icon{-webkit-transform:rotate(180deg) translateZ(0)!important}
+.ui-refresh-loading .ui-refresh-pullup-icon{background-position:-20px 0;-webkit-transform:rotate(0deg);-webkit-transition-duration:0ms;-webkit-animation-name:ui-refresh-loading-anim;-webkit-animation-duration:1s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:linear}
+@-webkit-keyframes ui-refresh-loading-anim{from{-webkit-transform:rotate(0deg)}
+8.32%{-webkit-transform:rotate(0deg)}
+8.33%{-webkit-transform:rotate(30deg)}
+16.65%{-webkit-transform:rotate(30deg)}
+16.66%{-webkit-transform:rotate(60deg)}
+24.99%{-webkit-transform:rotate(60deg)}
+25%{-webkit-transform:rotate(90deg)}
+33.32%{-webkit-transform:rotate(90deg)}
+33.33%{-webkit-transform:rotate(120deg)}
+41.65%{-webkit-transform:rotate(120deg)}
+41.66%{-webkit-transform:rotate(150deg)}
+49.99%{-webkit-transform:rotate(150deg)}
+50%{-webkit-transform:rotate(180deg)}
+58.32%{-webkit-transform:rotate(180deg)}
+58.33%{-webkit-transform:rotate(210deg)}
+66.65%{-webkit-transform:rotate(210deg)}
+66.66%{-webkit-transform:rotate(240deg)}
+74.99%{-webkit-transform:rotate(240deg)}
+75%{-webkit-transform:rotate(270deg)}
+83.32%{-webkit-transform:rotate(270deg)}
+83.33%{-webkit-transform:rotate(300deg)}
+91.65%{-webkit-transform:rotate(300deg)}
+91.66%{-webkit-transform:rotate(330deg)}
+99.99%{-webkit-transform:rotate(330deg)}
+to{-webkit-transform:rotate(360deg)}}
+.ui-refresh-pullup-label{font-size:14px;color:#545454;vertical-align:middle}
+.btn-search,.btn-back,.btn-bigger,.btn-smaller,.ui-toolbar-func .btn-slide,.ui-footer-app-download span,.page-view-list-item-inner div:nth-child(2) span:nth-child(3),.page-view-share span,.ui-gotop span{border:0;background-image:url(../img/bg-toolbar.png);background-size:50px 600px;-webkit-background-size:50px 600px;background-repeat:no-repeat}
+#searchsubscribe_list .item,.subscribe-list .item,#preview_view_subscribeinfo .state-btn{background-image:url(/shijiebei/img/bg-subscribe.png);-webkit-background-size:30px 300px;background-repeat:no-repeat}
+#subscribe_view_search .search-box,#index_view_search .search-box{background-image:url(/shijiebei/img/bg-simple-searchbox.png);background-size:25px 75px;-webkit-background-size:25px 75px;background-repeat:no-repeat}
+.btn-config,.ui-config .user,.ui-config .image-mode,.ui-config .mark,.ui-config .slide-mode{background-image:url(../img/bg-config.png);background-repeat:no-repeat;-webkit-background-size:30px 300px}
+.ui-toolbar{position:relative;min-width:320px;height:44px;z-index:2;background-color:#3e98f0;text-align:center;font-weight:400;color:#fff}
+.ui-toolbar-l,.ui-toolbar-r{position:absolute;height:100%;overflow:hidden}
+.ui-toolbar-l{top:0;left:0}
+.ui-toolbar-r{top:0;right:0}
+.ui-toolbar-title{display:inline-block;font-size:18px;line-height:44px}
+.ui-toolbar-btn{width:34px;height:100%;font-size:15px;line-height:44px}
+.ui-toolbar-l .ui-toolbar-btn{float:left}
+.ui-toolbar-r .ui-toolbar-btn{float:left}
+.ui-toolbar-btn.press{}
+.btn-product{background-position:center -50px}
+.btn-modelopen{background-position:center -425px}
+.btn-baidu{background-position:center 4px}
+.btn-subscribe{background-position:center -107px}
+.btn-search{background-position:center -162px}
+.btn-back{background-position:center -216px}
+.btn-config{background-position:center -273px}
+.btn-home{background-position:center -369px}
+.btn-dld{background-position:center -319px}
+.btn-manage-sub,.btn-ori{width:auto;padding-right:10px}
+.btn-nav{position:relative;width:40px;font-size:15px}
+.btn-nav span{position:absolute;top:13px;left:-2px;display:block;width:1px;height:16px;border-left:1px solid #5dabf0}
+.btn-close,.btn-img{height:28px;border:1px solid #3671d9}
+.btn-close,.btn-send{width:auto;padding-right:10px;border:0;line-height:44px;height:100%}
+.btn-back.press{}
+.btn-more{background-position:7px -123px}
+#image_view header{position:absolute;top:0;left:0;right:0;z-index:10}
+#image_view .ui-toolbar,#album_view .ui-toolbar{background-image:none;background-color:#303030;border-color:transparent;border-top-color:#333;border-bottom-color:#333}
+#image_view .ui-toolbar-btn.press,#album_view .ui-toolbar-btn.press{background-color:#2e2e2e}
+#image_view .ui-toolbar-title,#album_view .ui-toolbar-title{font-size:14px}
+#search_view .ui-toolbar-title{width:100px;height:44px}
+.ui-toolbar-container{position:relative;min-width:320px}
+.ui-toolbar,.ui-toolbar-mask{position:relative;height:40px;z-index:2;text-align:center;font-weight:400;border-top:1px solid #008629;border-bottom:1px solid #008629;color:#fff;background-color:#00902c}
+.ui-toolbar-mask{position:absolute;top:0;bottom:0;left:0;right:0;opacity:.8}
+.ui-toolbar-l,.ui-toolbar-r{position:absolute;height:40px;overflow:hidden}
+.ui-toolbar-title{display:inline-block;font-size:18px;line-height:40px}
+.ui-toolbar-l{top:0;left:0}
+.ui-toolbar-r{top:0;right:0}
+.ui-toolbar-l .ui-toolbar-btn{float:left;margin:4px 0 2px 5px}
+.ui-toolbar-r .ui-toolbar-btn{float:right;margin:4px 5px 4px 0}
+.ui-toolbar-btn{font-size:14px;height:30px;min-width:18px;line-height:30px;background-color:#009e30;border:1px solid #008629;padding:0 8px}
+.ui-toolbar-btn.press{background-color:#930c10}
+.ui-toolbar-btn span{display:none}
+.noimage .ui-toolbar-btn{background-image:none}
+.noimage .ui-toolbar-btn span{display:inline}
+.btn-product,.btn-search,.btn-home,.btn-back,.btn-bigger,.btn-smaller,.btn-dld,.ui-toolbar-group
+{background-image:url(/shijiebei/img/bg-toolbar-webapp.png);background-repeat:no-repeat;background-size:55px 1100px}
+.btn-baidu{width:32px}
+.ui-toolbar-l .btn-product{margin-left:0;border-left:0;width:28px;background-position:12px 4px}
+.btn-search{background-position:6px -31px}
+.btn-back{border:0;height:34px;width:43px;background-position:0 -177px;background-color:transparent;padding-left:7px}
+.btn-back.press{background-color:transparent;background-position:0 -240px}
+.btn-home{background-position:6px -64px}
+.ui-toolbar-func{position:relative;border-bottom:1px solid #D2D2D2;height:37px;background-color:#F4F4F4}
+.ui-toolbar-func .ui-toolbar-btn{float:right;height:37px;min-width:30px;background-color:transparent;border:0;color:#545454}
+.ui-toolbar-group{position:absolute;right:0;top:0;width:96px;background-position:0 -109px}
+.btn-bigger{background-position:8px -460px}
+.btn-smaller{background-position:10px -420px}
+.btn-more{width:34px;padding:0}
+.btn-config{width:14px;background-position:8px -192px}
+.ui-toolbar-func .btn-dld{float:left;width:auto;height:37px;line-height:37px;margin:0 0 0 8px}
+.ui-toolbar-func .btn-dld{background-position:0 -540px}
+#search_view .btn-dld,#searchbox_view .btn-dld{background-position:3px -590px}
+#image_view header{position:absolute;top:0;left:0;right:0;z-index:10}
+#image_view .ui-toolbar{background-image:none;background-color:transparent;border-color:transparent}
+#image_view .ui-toolbar-mask{background-image:none;background-color:#303030;border-top-color:#333;border-bottom-color:#333}
+#image_view .ui-toolbar-btn{background-color:#3c3c3c;border-color:#232323}
+#image_view .ui-toolbar-btn.press{background-color:#2e2e2e}
+#image_view .btn-back{background-position:0 -305px;background-color:transparent;border:0}
+#image_view .btn-back.press{background-color:transparent;background-position:0 -368px}
+#image_view .ui-toolbar-title{font-size:14px}
+#comment_view .ui-toolbar,#searchresult_page .ui-toolbar,#search_country_page .ui-toolbar,#search_position_page .ui-toolbar,#news_page .ui-toolbar,#rank_page .ui-toolbar,#team_page .ui-toolbar{background:url(/shijiebei/img/header_right_bg.png) right top no-repeat;background-size:auto 100%;background-color:#00902c}
+@-webkit-keyframes loading-anim{0%{-webkit-transform:rotate(0)}
+50%{-webkit-transform:rotate(180deg)}
+100%{-webkit-transform:rotate(360deg)}}
+.global-loading{position:absolute;left:0;top:0;right:0;bottom:0;display:-webkit-box;-webkit-box-pack:start;-webkit-box-align:center;-webkit-box-orient:vertical;-webkit-box-sizing:border-box;background-color:#FFF;z-index:1000}
+.global-loading-anim{height:50px;width:50px;-webkit-animation:loading-anim 2s linear infinite;background:url(/static/news/other/summary/summary/img/rotating_b22ed46.png) 0 0 no-repeat;background-size:65px 65px}
+.global-loading-text{margin-top:160px;color:#888;font:700 16px/30px normal}
+.global-loading-logo{margin-top:120px;height:66px;width:66px;display:-webkit-box;-webkit-box-pack:center;-webkit-box-align:center;-webkit-box-orient:vertical;-webkit-box-sizing:border-box;background:url(/static/news/other/summary/summary/img/loading-logo-news_e90ae8e.png) 0 0 no-repeat;background-size:65px 65px}
+@-webkit-keyframes loading-anim{0%{-webkit-transform:rotate(0)}
+50%{-webkit-transform:rotate(180deg)}
+100%{-webkit-transform:rotate(360deg)}}
+.page-loading{position:absolute;left:0;top:0;right:0;bottom:0;display:-webkit-box;-webkit-box-pack:start;-webkit-box-align:center;-webkit-box-orient:vertical;-webkit-box-sizing:border-box;background-color:#FFF;z-index:1000}
+.page-loading-anim{height:50px;width:50px;-webkit-animation:loading-anim 2s linear infinite;background:url(/static/news/other/summary/summary/img/rotating_b22ed46.png) 0 0 no-repeat;background-size:50px 50px}
+.page-loading-text{color:#888;font:700 16px/30px normal}
+.page-loading-logo{margin-top:120px;height:50px;width:50px;display:-webkit-box;-webkit-box-pack:center;-webkit-box-align:center;-webkit-box-orient:vertical;-webkit-box-sizing:border-box;background:url(/static/news/other/summary/summary/img/loading-logo-news_e90ae8e.png) 0 0 no-repeat;background-size:50px 50px}
+.page-header{height:44px;line-height:44px;background:url(../img/header_left_bg.png) left top no-repeat,url(../img/header_right_bg.png) right top no-repeat;background-size:auto 100%;background-color:#00902c;border-bottom:red}
+.page-header>header{color:#fff;font-size:18px;padding:0 10px}
+.page-header>header small{font-size:15px;padding-left:10px}
+.page-footer{}
+.page-footer{position:fixed;left:0;bottom:0;height:50px;width:100%}
+.home-start{margin:0 auto;width:100px;display:block;height:38px;line-height:38px;width:130px;text-decoration:none;text-align:center;color:#585858;background-color:#363034}
+.home-start.able{color:#fff;border:1px solid #88acbf;background-color:#2697d4}
+#index_page{display:none;position:absolute;top:0;left:0;right:0;bottom:0;background:url(/static/news/other/summary/summary/img/index_bg_5f12096.jpg);background-size:100% 100%;background-position:center center}
+#index_page_content{position:relative;height:100%}
+#index_page_content .more-box,.more-box{margin:12px 0 0;overflow:hidden}
+a.more{padding:3px 5px 3px 0}
+#index_page_content a.more,a.more,a.random{float:left;font-size:14px;line-height:1em;color:#2a6ac0}
+#index_page_content .more-icon,.more-icon{float:right;width:10px;text-align:center;background:url(../img/right_arrow_bg.png) center center no-repeat;background-size:6px 10px;margin-left:6px}
+#index_page_content .gray-line{color:#c5c5c5;font-size:10px;vertical-align:middle;float:left;padding:0 5px}
+.index-summary-logo{position:absolute;top:40%;margin-top:-126px;width:100%;height:120px;padding-top:252px;background:url(/static/news/other/summary/summary/page/index/img/index-summary-logo_a6af902.png) no-repeat center 0;background-size:375px 252px}
+@media screen and (max-width:320px) and (max-height:480px){.index-summary-logo{top:30%;-webkit-transform:scale(0.8);transform:scale(0.8)}}
+.summary-text p{color:#fff;font-size:16px;line-height:1.5em;text-align:center}
+.summary-text .show-rule{color:#ff0}
+.index-btn-score{margin:10px auto;display:block;margin-top:20px}
+@media screen and (max-height::600px){.index-btn-score{margin-top:50px}}
+.index-news-logo{width:109px;height:50px;margin:0 auto;background:url(/static/news/other/summary/summary/page/index/img/index-news-logo_58182f8.png) no-repeat center 0;background-size:109px 49px}
+.show-rule-dialog{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.8);overflow:scroll}
+.show-rule-dialog-inner{background-color:#fff;padding:10px;margin:20px;position:relative;padding-bottom:90px}
+.show-rule-dialog-inner p{line-height:1.5em;text-indent:2em;font-size:14px;color:#302f30}
+.show-rule-dialog-inner h3{font-size:22px;padding:30px 0;text-align:center;font-weight:700}
+.show-rule-dialog-inner h4{font-size:16px;line-height:1.8em;text-indent:28px;font-weight:700}
+.show-rule-dialog-inner-after{position:absolute;bottom:0;left:0;height:70px;width:100%;background:url(/static/news/other/summary/summary/page/index/img/index-show-rule-dialog_8cd6997.png) no-repeat;background-size:100% auto}
+.show-rule-dialog-inner-close{content:"";display:block;position:absolute;top:10px;right:10px;background:url(/static/news/other/summary/summary/page/detail/img/summary-icon_437f54c.png) no-repeat -5px -415px;background-size:150px 900px;width:30px;height:30px}
+#home_page{display:none;position:absolute;top:0;left:0;right:0;bottom:0;background:url(/static/news/other/summary/summary/img/index_bg_5f12096.jpg);background-size:100% 100%;background-position:center center}
+#home_page_content{position:relative;height:62.5%}
+#home_page_content .more-box,.more-box{margin:12px 0 0;overflow:hidden}
+a.more{padding:3px 5px 3px 0}
+#home_page_content a.more,a.more,a.random{float:left;font-size:14px;line-height:1em;color:#2a6ac0}
+#home_page_content .more-icon,.more-icon{float:right;width:10px;text-align:center;background:url(../img/right_arrow_bg.png) center center no-repeat;background-size:6px 10px;margin-left:6px}
+#home_page_content .gray-line{color:#c5c5c5;font-size:10px;vertical-align:middle;float:left;padding:0 5px}
+.company-list{position:relative;width:100%}
+.company-list li{position:absolute;width:80px;height:60px;line-height:60px;text-align:center;background-color:rgba(0,0,0,.8);color:#fff;border-radius:30px;background:url(/static/news/other/summary/summary/page/home/img/all-logo-small_858eda9.png) no-repeat 0 0;background-size:1500px 582px}
+.company-list .logo-baidu{top:66px;left:3.2%;width:132px;height:132px;background-position:-773px -26px}
+.company-list .logo-baidu.checked{background-position:-964px -26px}
+.company-list .logo-ali{top:171px;left:36%;width:122px;height:122px;background-position:-40px -257px}
+.company-list .logo-ali.checked{background-position:-187px -257px}
+.company-list .logo-qq{top:3px;left:65.333%;width:122px;height:122px;background-position:-406px -32px}
+.company-list .logo-qq.checked{background-position:-594px -32px}
+.company-list .logo-xiaomi{top:284px;left:23px;width:91px;height:91px;background-position:-348px -272px}
+.company-list .logo-xiaomi.checked{background-position:-492px -272px}
+.company-list .logo-lenovo{top:71px;left:42.13333%;width:91px;height:91px;background-position:-1169px -46px}
+.company-list .logo-lenovo.checked{background-position:-1357px -46px}
+.company-list .logo-360{top:209px;left:77.3333%;width:72px;height:72px;background-position:-645px -282px}
+.company-list .logo-360.checked{background-position:-793px -282px}
+.company-list .logo-jd{top:-10px;left:28.8%;width:93px;height:93px;background-position:-48px -47px}
+.company-list .logo-jd.checked{background-position:-232px -47px}
+.company-list .logo-huawei{top:273px;left:60.5333%;width:93px;height:93px;background-position:-927px -271px}
+.company-list .logo-huawei.checked{background-position:-1073px -271px}
+.company-list .logo-jumei{top:298px;left:35.2%;width:78px;height:78px;background-position:-1225px -276px}
+.company-list .logo-jumei.checked{background-position:-1371px -276px}
+.company-list .logo-momo{top:204px;left:12.2%;width:76px;height:76px;background-position:-63px -484px}
+.company-list .logo-momo.checked{background-position:-207px -484px}
+.company-list .logo-chuizi{top:132px;left:69.6%;width:80px;height:80px;background-position:-346px -482px}
+.company-list .logo-chuizi.checked{background-position:-492px -484px}
+@media screen and (max-width:320px){.company-list{transform:scale(0.9);top:-10px;left:-12px}}
+@media screen and (max-width:320px) and (max-height:480px){.company-list{-webkit-transform:scale(0.8);transform:scale(0.8);top:-10px;left:-10px}
+.company-list .logo-baidu{top:41px;left:-2.8%}
+.company-list .logo-ali{top:122px;left:29%}
+.company-list .logo-qq{top:-30px;left:70%}
+.company-list .logo-xiaomi{top:212px;left:23px}
+.company-list .logo-lenovo{top:41px;left:45.13333%}
+.company-list .logo-360{top:149px;left:77.3333%}
+.company-list .logo-jd{top:-28px;left:28.8%}
+.company-list .logo-huawei{top:201px;left:60.5333%}
+.company-list .logo-jumei{top:228px;left:35.2%}
+.company-list .logo-momo{top:161px;left:1%}
+.company-list .logo-chuizi{top:82px;left:80.6%}}
+#home_page_content_images{display:none}
+#home_page_content_images header small{font-size:12px;margin-left:5px}
+.home-tip{height:90px;background:url(/static/news/other/summary/summary/img/home-tip_fd952e9.png) no-repeat center center;background-size:315px 90px}
+@media screen and (max-width:320px){#home_page .page-footer{height:50px}}
+@media screen and (max-width:320px) and (max-height:480px){}
+@-webkit-keyframes music{0%{-webkit-transform:translate3d(0,0,0) rotate(0deg) translateZ(0)}
+100%{-webkit-transform:translate3d(0,0,0) rotate(360deg) translateZ(0)}}
+@keyframes music{0%{transform:translate3d(0,0,0) rotate(0deg) translateZ(0)}
+100%{transform:translate3d(0,0,0) rotate(360deg) translateZ(0)}}
+.music{position:absolute;left:10px;top:83px;width:63px;height:22px;color:#fff;font-size:12px;line-height:2;display:none;border:1px solid transparent}
+.music .btn.play{-webkit-animation:music 2500ms linear 0 infinite;animation:music 2500ms linear 0 infinite}
+.music .btn{float:right;margin-right:10px;width:23px;height:23px;background-repeat:no-repeat;background-size:23px 23px;background-image:url(http://m.baidu.com/static/news/other/apptuiguang/v1/static/img/music_ece9734.png)}
+#detail_page{display:none;position:absolute;top:0;left:0;right:0;bottom:0;background:url(/static/news/other/summary/summary/img/index_bg_5f12096.jpg);background-size:100% 100%;background-position:center center}
+#detail_page_content{position:relative}
+#detail_page_content{}
+#detail_page_content .detail-view-subpage{background:url(/static/news/other/summary/summary/page/detail/img/c-content-table-bg_231a767.png) repeat;background-size:30px 30px}
+#detail_page_content .c-name{text-align:center;height:46px;line-height:46px;padding:0 10px;border-bottom:1px solid #c97b8b}
+#detail_page_content .c-content{overflow:hidden;overflow-y:visible}
+#detail_page_content .c-content .c-content-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#detail_page_content .c-content-table{width:100%;table-layout:fixed}
+#detail_page_content .c-content-table .c-content-table-title{text-align:left;padding-left:10px;font-size:18px}
+#detail_page_content .c-content-table .c-content-table-title span{padding:10px 0;background:url(/static/news/other/summary/summary/page/detail/img/summary-icon_437f54c.png) no-repeat -20px -206px;background-size:150px 900px}
+#detail_page_content .c-content-table th{height:46px;line-height:46px;font-size:20px}
+#detail_page_content .c-content-table td{height:36px;line-height:36px}
+#detail_page_content .c-content-table td img{vertical-align:middle;height:32px;margin-right:3px}
+#detail_page_content .c-content-table tr{border-top:1px solid #dee1e1}
+#detail_page_content .c-content-table tr.first-tr{border-top:0}
+#detail_page_content .c-content-table td,#detail_page_content .c-content-table th{padding-left:10px}
+#detail_page_content .c-content-table .even{width:20%;text-align:center;border-left:1px solid #cb7b85}
+#detail_page_content .c-content-table .c-content-self-score{vertical-align:middle;color:#d72c00;font-size:20px}
+#detail_page_content .logo-baidu:after{content:" : 百度"}
+#detail_page_content .logo-alibaba:after{content:" : 阿里巴巴"}
+#detail_page_content .logo-tengxun:after{content:" : 腾讯"}
+#detail_page_content .logo-xiaomi:after{content:" : 小米"}
+#detail_page_content .logo-jd:after{content:" : 京东"}
+#detail_page_content .logo-jumei:after{content:" : 聚美"}
+#detail_page_content .logo-chuizi:after{content:" : 锤子"}
+#detail_page_content .logo-huawei:after{content:" : 华为"}
+#detail_page_content .logo-momo:after{content:" : 陌陌"}
+#detail_page_content .logo-360:after{content:" : 360"}
+#detail_page_content .logo-lenovo:after{content:" : 联想"}
+#detail_page_content .logo-icon{height:44px;width:80%;font-size:20px;font-weight:700;text-align:center}
+.detail-content-dialog{position:absolute;top:0;left:0;width:100%;min-height:100%;background-color:rgba(0,0,0,.8);overflow:scroll}
+.detail-content-dialog-title{font-size:20px;font-weight:700;text-align:center}
+.detail-content-dialog-inner{margin:20px;color:#000;height:70%;font-size:16px;background-color:#fff;padding:36px 10px 10px;position:relative}
+.detail-content-dialog-close{content:"";display:block;position:absolute;top:10px;right:10px;background:url(/static/news/other/summary/summary/page/detail/img/summary-icon_437f54c.png) no-repeat -5px -415px;background-size:150px 900px;width:30px;height:30px}
+.detail-content-dialog-inner img{width:100%;margin:10px 0;float:left}
+.detail-content-dialog-inner p{line-height:1.5em;text-indent:2em}
+.detail-footer{width:100%;border-top:1px solid #c97b8b}
+.detail-footer .user-score{height:176px;background:url(/static/news/other/summary/summary/page/detail/img/datail-score-bg_05868c8.jpg) repeat-x left bottom;background-size:auto 5px}
+.detail-footer .user-score .user-score-title{padding-top:10px;padding-left:16px;background:url(/static/news/other/summary/summary/page/detail/img/summary-icon_437f54c.png) no-repeat -6px -208px;background-size:150px 900px;font-size:20px}
+.detail-footer .user-score .user-score-list{overflow:hidden;padding-left:10px}
+.detail-footer .user-score .user-score-list li{float:left;width:33.33%}
+.detail-footer .user-score .user-score-list li .score-checkbox,.detail-footer .user-score .user-score-list li .score-biaoqing{padding-left:30px;display:block;line-height:1.5em;background:url(/static/news/other/summary/summary/page/detail/img/summary-icon_437f54c.png) no-repeat -6px -208px;background-size:150px 900px}
+.detail-footer .user-score .user-score-list li .score-checkbox{margin-top:10px;color:#d72c00;background-position:-4px -88px}
+.detail-footer .user-score .user-score-list li .score-biaoqing{margin-top:5px;color:#000;background-position:-5px -133px;font-weight:700}
+.detail-footer .user-score .user-score-list li .biaoqing5{background-position:-5px -133px}
+.detail-footer .user-score .user-score-list li .biaoqing4{background-position:-5px -170px}
+.detail-footer .user-score .user-score-list li .biaoqing3{background-position:-5px -265px}
+.detail-footer .user-score .user-score-list li .biaoqing2{background-position:-5px -309px}
+.detail-footer .user-score .user-score-list li .biaoqing1{background-position:-5px -355px}
+.detail-footer .user-score .user-score-list li.checked .score-checkbox{background-position:-4px -26px}
+.detail-footer .user-score .user-score-list li.last-item{width:66.66%}
+.detail-footer .user-action{height:96px;padding-top:16px;background:url(/static/news/other/summary/summary/page/index/img/index-news-logo_58182f8.png) no-repeat center bottom transparent;background-color:#000;background-size:109px 49px}
+.detail-footer .user-action .user-action-btn{height:40px;line-height:40px;text-align:center;width:36.533333333333334%;float:left;color:#585858;background-color:#363034}
+.detail-footer .user-action .user-action-btn.able{color:#fff;background-color:#0797d1;border:1px solid #88acbf}
+.detail-footer .user-action .user-action-prev{margin-left:7.466666666666667%;margin-right:12.8%}
+@media screen and (min-width:375px){.detail-footer .user-action{position:absolute;width:100%;background-color:transparent}}
+@media screen and (max-width:320px){.detail-footer .user-action{height:96px;padding-top:12px}
+.detail-footer .user-action .user-action-btn{height:40px;line-height:40px}}
+@media screen and (max-width:320px) and (max-height:480px){.detail-footer .user-action{height:96px;padding-top:12px}
+.detail-footer .user-action .user-action-btn{height:40px;line-height:40px}}
+#result_page{display:none;position:absolute;top:0;left:0;right:0;bottom:0;background:url(/static/news/other/summary/summary/img/index_bg_5f12096.jpg);background-size:100% 100%;background-position:center center}
+#result_page_content{position:relative;min-height:300px;background-color:#fff;margin-top:-3px}
+.result-tip{width:100%}
+.result-tip img{width:100%}
+.show-join-people{height:40px;line-height:30px;font-size:16px;text-align:center}
+.show-join-people .people-number{color:#ce3104;padding:0 5px}
+.result-content{margin-top:0;border:1px solid #e3bcc1;border:1px 0;overflow-y:visible;overflow-x:hidden;background:url(/static/news/other/summary/summary/page/result/img/datail-score-bg_05868c8.jpg) repeat-x left bottom;background-size:auto 5px;padding-bottom:5px}
+.result-content .result-content-table{width:100%}
+.result-content .result-content-table th{height:40px;line-height:40px;font-size:16px;text-align:center}
+.result-content .result-content-table td{border-top:1px solid #ccc;text-align:center;vertical-align:middle;position:relative}
+.result-content .result-content-table .even{border-left:1px solid #caacb0}
+.result-content .result-content-table td .logo-number{position:absolute;left:20px;top:8px;font-size:20px;color:#735823}
+.result-content-table tr.commented{background-color:#FBF6E1}
+.result-content-table td img{height:34px;line-height:34px}
+.result-content-table th{font-weight:700}
+.result-content-table td.overall-score{color:#D23205;font-size:20px}
+.result-footer{height:100px;width:100%;background:url(/static/news/other/summary/summary/img/index_bg_5f12096.jpg);background-size:100% auto;background-position:left bottom}
+.result-footer-logo{height:100px;width:100%;background:url(/static/news/other/summary/summary/page/index/img/index-news-logo_58182f8.png) no-repeat center bottom transparent;background-size:109px 49px}
+.result-footer .share-btn{width:114px;height:34px;line-height:34px;border:1px solid #88acbf;color:#fff;margin:0 auto;margin-top:16px;background-color:#0895d1;text-align:center}
+@media screen and (max-width:320px){.result-footer,.result-footer-logo{height:84px}
+.result-footer{padding-top:12px}
+.result-footer .share-btn{margin-top:0}}
+@media screen and (max-width:320px) and (max-height:480px){.result-footer,.result-footer-logo{height:80px}
+.result-footer{padding-top:12px}
+.result-footer .share-btn{margin-top:0}}
+.result-content .logo-baidu{background:url(/static/news/other/summary/summary/page/result/img/logo-baidu_532e73d.png) no-repeat}
+.result-content .logo-alibaba{background:url(/static/news/other/summary/summary/page/result/img/logo-alibaba_cc2198c.png) no-repeat}
+.result-content .logo-tengxun{background:url(/static/news/other/summary/summary/page/result/img/logo-tengxun_6cb9513.png) no-repeat}
+.result-content .logo-xiaomi{background:url(/static/news/other/summary/summary/page/result/img/logo-xiaomi_d36f467.png) no-repeat}
+.result-content .logo-jd{background:url(/static/news/other/summary/summary/page/result/img/logo-jd_801d07e.png) no-repeat}
+.result-content .logo-jumei{background:url(/static/news/other/summary/summary/page/result/img/logo-jumei_de1b162.png) no-repeat}
+.result-content .logo-chuizi{background:url(/static/news/other/summary/summary/page/result/img/logo-chuizi_572e97c.png) no-repeat}
+.result-content .logo-huawei{background:url(/static/news/other/summary/summary/page/result/img/logo-huawei_b62661c.png) no-repeat}
+.result-content .logo-momo{background:url(/static/news/other/summary/summary/page/result/img/logo-momo_e8bdffb.png) no-repeat}
+.result-content .logo-360{background:url(/static/news/other/summary/summary/page/result/img/logo-360_ea0cdaf.png) no-repeat}
+.result-content .logo-lenovo{background:url(/static/news/other/summary/summary/page/result/img/logo-lenovo_e537dd0.png) no-repeat}
+.result-content .logo-icon{height:35px;background-size:auto 30px;background-position:center center}
+.share-rank-dialog{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.8) url(/static/news/other/summary/summary/page/result/img/result-share-bg_8dddc3b.png) no-repeat;background-size:100% auto}
+.share-rank-dialog-other{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.8) url(/static/news/other/summary/summary/page/result/img/result-share-other-bg_c8331cd.png) no-repeat center 20%;background-size:100% auto}

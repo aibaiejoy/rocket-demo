@@ -1,0 +1,2 @@
+!function(t){var h,i,c,g=!1,l=function(){clearTimeout(i),h&&(c=h.attr("highlight-cls"))&&(h.removeClass(c).attr("highlight-cls",""),h=null)};t.extend(t.fn,{highlight:function(c){return g=g||!!t(document).on("touchend.highlight touchmove.highlight touchcancel.highlight",l),l(),this.each(function(){var g=t(this);g.css("-webkit-tap-highlight-color","rgba(255,255,255,0)").off("touchstart.highlight"),c&&g.on("touchstart.highlight",function(){i=t.later(function(){h=g.attr("highlight-cls",c).addClass(c)
+},100)})})}})}(Zepto);

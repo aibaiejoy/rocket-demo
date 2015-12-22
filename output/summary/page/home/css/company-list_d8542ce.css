@@ -1,0 +1,186 @@
+.company-list {
+  position: relative;
+  width: 100%;
+}
+.company-list li {
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 30px;
+  background: url('/static/news/other/summary/summary/page/home/img/all-logo-small_5d039c0.png') no-repeat 0 0;
+  background-size: 1500px 582px;
+}
+.company-list .logo-baidu {
+  top: 66px;
+  left: 3.2%;
+  width: 132px;
+  height: 132px;
+  background-position: -773px -26px;
+}
+.company-list .logo-baidu.checked {
+  background-position: -964px -26px;
+}
+.company-list .logo-ali {
+  top: 171px;
+  left: 36%;
+  width: 122px;
+  height: 122px;
+  /* checked background-position: -187px -257px;		*/
+  background-position: -40px -257px;
+}
+.company-list .logo-ali.checked {
+  background-position: -187px -257px;
+}
+.company-list .logo-qq {
+  top: 3px;
+  left: 65.333%;
+  width: 122px;
+  height: 122px;
+  background-position: -406px -32px;
+}
+.company-list .logo-qq.checked {
+  background-position: -594px -32px;
+}
+.company-list .logo-xiaomi {
+  top: 284px;
+  left: 23px;
+  width: 91px;
+  height: 91px;
+  background-position: -348px -272px;
+}
+.company-list .logo-xiaomi.checked {
+  background-position: -492px -272px;
+}
+.company-list .logo-lenovo {
+  top: 71px;
+  left: 42.13333%;
+  width: 91px;
+  height: 91px;
+  background-position: -1169px -46px;
+}
+.company-list .logo-lenovo.checked {
+  background-position: -1357px -46px;
+}
+.company-list .logo-360 {
+  top: 209px;
+  left: 77.3333%;
+  width: 72px;
+  height: 72px;
+  background-position: -645px -282px;
+}
+.company-list .logo-360.checked {
+  background-position: -793px -282px;
+}
+.company-list .logo-jd {
+  top: -10px;
+  left: 28.8%;
+  width: 93px;
+  height: 93px;
+  background-position: -48px -47px;
+}
+.company-list .logo-jd.checked {
+  background-position: -232px -47px;
+}
+.company-list .logo-huawei {
+  top: 273px;
+  left: 60.5333%;
+  width: 93px;
+  height: 93px;
+  background-position: -927px -271px;
+}
+.company-list .logo-huawei.checked {
+  background-position: -1073px -271px;
+}
+.company-list .logo-jumei {
+  top: 298px;
+  left: 35.2%;
+  width: 78px;
+  height: 78px;
+  background-position: -1225px -276px;
+}
+.company-list .logo-jumei.checked {
+  background-position: -1371px -276px;
+}
+.company-list .logo-momo {
+  top: 204px;
+  left: 12.2%;
+  width: 76px;
+  height: 76px;
+  background-position: -63px -484px;
+}
+.company-list .logo-momo.checked {
+  background-position: -207px -484px;
+}
+.company-list .logo-chuizi {
+  top: 132px;
+  left: 69.6%;
+  width: 80px;
+  height: 80px;
+  background-position: -346px -482px;
+}
+.company-list .logo-chuizi.checked {
+  background-position: -492px -484px;
+}
+@media screen and (max-width: 320px) {
+  .company-list {
+    transform: scale(0.9);
+    top: -10px;
+    left: -12px;
+  }
+}
+@media screen and (max-width: 320px) and (max-height: 480px) {
+  .company-list {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    top: -10px;
+    left: -10px;
+  }
+  .company-list .logo-baidu {
+    top: 41px;
+    left: -2.8%;
+  }
+  .company-list .logo-ali {
+    top: 122px;
+    left: 29%;
+  }
+  .company-list .logo-qq {
+    top: -30px;
+    left: 70%;
+  }
+  .company-list .logo-xiaomi {
+    top: 212px;
+    left: 23px;
+  }
+  .company-list .logo-lenovo {
+    top: 41px;
+    left: 45.13333%;
+  }
+  .company-list .logo-360 {
+    top: 149px;
+    left: 77.3333%;
+  }
+  .company-list .logo-jd {
+    top: -28px;
+    left: 28.8%;
+  }
+  .company-list .logo-huawei {
+    top: 201px;
+    left: 60.5333%;
+  }
+  .company-list .logo-jumei {
+    top: 228px;
+    left: 35.2%;
+  }
+  .company-list .logo-momo {
+    top: 161px;
+    left: 1%;
+  }
+  .company-list .logo-chuizi {
+    top: 82px;
+    left: 80.6%;
+  }
+}

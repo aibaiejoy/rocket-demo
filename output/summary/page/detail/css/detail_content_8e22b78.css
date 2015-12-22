@@ -1,0 +1,34 @@
+#detail_page_content{}
+#detail_page_content .detail-view-subpage{background:url(/static/news/other/summary/summary/page/detail/img/c-content-table-bg_231a767.png) repeat;background-size:30px 30px}
+#detail_page_content .c-name{text-align:center;height:46px;line-height:46px;padding:0 10px;border-bottom:1px solid #c97b8b}
+#detail_page_content .c-content{overflow:hidden;overflow-y:visible}
+#detail_page_content .c-content .c-content-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#detail_page_content .c-content-table{width:100%;table-layout:fixed}
+#detail_page_content .c-content-table .c-content-table-title{text-align:left;padding-left:10px;font-size:18px}
+#detail_page_content .c-content-table .c-content-table-title span{padding:10px 0;background:url(/static/news/other/summary/summary/page/detail/img/summary-icon_437f54c.png) no-repeat -20px -206px;background-size:150px 900px}
+#detail_page_content .c-content-table th{height:46px;line-height:46px;font-size:20px}
+#detail_page_content .c-content-table td{height:36px;line-height:36px}
+#detail_page_content .c-content-table td img{vertical-align:middle;height:32px;margin-right:3px}
+#detail_page_content .c-content-table tr{border-top:1px solid #dee1e1}
+#detail_page_content .c-content-table tr.first-tr{border-top:0}
+#detail_page_content .c-content-table td,#detail_page_content .c-content-table th{padding-left:10px}
+#detail_page_content .c-content-table .even{width:20%;text-align:center;border-left:1px solid #cb7b85}
+#detail_page_content .c-content-table .c-content-self-score{vertical-align:middle;color:#d72c00;font-size:20px}
+#detail_page_content .logo-baidu:after{content:" : 百度"}
+#detail_page_content .logo-alibaba:after{content:" : 阿里巴巴"}
+#detail_page_content .logo-tengxun:after{content:" : 腾讯"}
+#detail_page_content .logo-xiaomi:after{content:" : 小米"}
+#detail_page_content .logo-jd:after{content:" : 京东"}
+#detail_page_content .logo-jumei:after{content:" : 聚美"}
+#detail_page_content .logo-chuizi:after{content:" : 锤子"}
+#detail_page_content .logo-huawei:after{content:" : 华为"}
+#detail_page_content .logo-momo:after{content:" : 陌陌"}
+#detail_page_content .logo-360:after{content:" : 360"}
+#detail_page_content .logo-lenovo:after{content:" : 联想"}
+#detail_page_content .logo-icon{height:44px;width:80%;font-size:20px;font-weight:700;text-align:center}
+.detail-content-dialog{position:absolute;top:0;left:0;width:100%;min-height:100%;background-color:rgba(0,0,0,.8);overflow:scroll}
+.detail-content-dialog-title{font-size:20px;font-weight:700;text-align:center}
+.detail-content-dialog-inner{margin:20px;color:#000;height:70%;font-size:16px;background-color:#fff;padding:36px 10px 10px;position:relative}
+.detail-content-dialog-close{content:"";display:block;position:absolute;top:10px;right:10px;background:url(/static/news/other/summary/summary/page/detail/img/summary-icon_437f54c.png) no-repeat -5px -415px;background-size:150px 900px;width:30px;height:30px}
+.detail-content-dialog-inner img{width:100%;margin:10px 0;float:left}
+.detail-content-dialog-inner p{line-height:1.5em;text-indent:2em}

@@ -1,0 +1,2 @@
+!function(t){rocket.model.score=rocket.model.extend({initialize:function(t,i){var e=this;e.options=i,e.curCid=i.cid},cidList:{1001:"baidu",1002:"alibaba",1003:"tengxun",1004:"xiaomi",1005:"jd",1006:"lenovo",1007:"360",1008:"huawei",1009:"jumei",10010:"momo",10011:"chuizi"},getCidList:function(){return this.cidList},fetch:function(i,e){var o=this,a=t.extend({type:"get",dataType:"jsonp",url:"http://baijia.baidu.com/ajax/kpi&t=score&"+t.param(e),data:t.extend({t:"score"},e)},i);return Backbone.Model.prototype.fetch.call(o,a)
+}})}(Zepto);

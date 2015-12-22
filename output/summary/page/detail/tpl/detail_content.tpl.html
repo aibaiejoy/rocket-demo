@@ -1,0 +1,50 @@
+<div class="c-name"><span class="logo-icon logo-<%=logoIcon%>">待评公司</span></div>
+<div class="c-content">
+	<div class="c-content-scroll">
+
+		<table class="c-content-table">
+			<tr class="first-tr">
+				<th class=" c-content-table-title"><span>【自评】</span>业绩回顾</th>
+				<th class="even">得分</th>
+			</tr>
+			<% if(errno == 0){%>
+				<% _.each(data.self.list, function(item, i){ %>
+				<tr>
+					<td data-content="<%=item.content%>" 
+						data-imgsrc="<%=item.imgsrc%>"
+						data-title="<%=item.title%>"
+						class="c-content-title">
+						<%=item.title%> &gt;
+					</td>
+					<% if(i == 0){ %>
+					<td class="even c-content-self-score" rowspan="<%=data.self.list.length%>"><%=data.self.score%></td>
+					<% } %>
+				</tr>
+				<% }) %>	
+			<% } %>
+		</table>
+
+		<table class="c-content-table">
+			<tr>
+				<th class="c-content-table-title"><span>【他评】</span>同行&媒体观点</th>
+				<th class="even">得分</th>
+			</tr>
+			<% if(errno == 0){%>
+				<% _.each(data.other, function(item, i){ %>
+				<tr>
+					<td data-content="<%=item.content%>" 
+						data-imgsrc="<%=item.imgsrc%>"
+						data-title="<%=item.title%>"
+						class="c-content-title">
+						<img src="<%= item.avatarsrc %>"><%=item.title%> &gt;
+					</td>
+					<td class="even c-content-self-score"><%= item.score %></td>	
+				</tr>
+				<% }) %>	
+			<% } %>
+		</table>
+		
+	</div>
+</div>
+
+

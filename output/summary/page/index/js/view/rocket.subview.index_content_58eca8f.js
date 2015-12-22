@@ -1,0 +1,2 @@
+!function(o){rocket.subview.index_content=rocket.subview.extend({el:"#index_page_content",events:{"click .index-btn-score":"gohome","click .show-rule":"showRule"},init:function(){var i=this;i.dialog=o(".show-rule-dialog").hide(),i.dialog.find(".show-rule-dialog-inner-close").on("click",function(){i.dialog.hide()}),i.show()},gohome:function(){var o=this;window.audioBackgroundMusic=document.getElementById("audioBackgroundMusic"),audioBackgroundMusic.play(),o.navigate("#home")},showRule:function(){this.dialog.show()
+}})}(Zepto);

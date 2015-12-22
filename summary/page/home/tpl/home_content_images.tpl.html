@@ -1,0 +1,36 @@
+<% if(list.length > 0){ %>
+<div class="images-container">
+	<div class="special-title">
+		<div class="special-title-txt">
+			<header><%=title || ''%><small><%=enTitle||''%></small></header>
+			<span>
+				<!-- <a class="more">性感美图</a> | <a class="more">精彩瞬间</a> -->
+			</span>
+		</div>
+	</div>
+	<div class="grid-layout">
+		<ul class="grid col-2">
+			<% _.each(list, function(item, home){ %>
+			<li class="cell" data-id="<%= item.nid %>" data-src="<%= item.url%>" data-title="<%- item.title%>"  data-site="<%- item.site%>" data-time="<%= item.ts%>"
+				data-displaytype="<%= item.display_type || 1%>" 
+	        	data-displayurl="<%= item.display_url || ''%>" 
+				>
+				<div class="cell-content">
+					<div class="bd"><img data-playUrl="<%= item.url %>" src="<%= item.imageurls[0].url %>"/></div>
+					<div class="cell-title nowrap">
+						<%= item.title %>
+					</div>
+				</div>
+				
+			</li>
+			<% }) %>
+		</ul>
+	</div>
+	<% if(!!more){ %>
+	    <div class="pl10 more-box">
+	        <a class="more" data-title="<%=title%>"><span><%=more%></span><span class="more-icon">&nbsp;</span></a>
+	    </div>
+	<% } %>
+</div>
+<% } %>
+

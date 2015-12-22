@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>百度新闻特别盘点·挨踢圈绩效大PK</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <link rel="shortcut icon"
+          href="http://m.baidu.com/static/news/webapp/webappandroid/img/webapp-news-logo.png"/>
+    <link rel="apple-touch-icon-precomposed"
+          href="http://m.baidu.com/static/news/webapp/webappandroid/img/webapp-news-logo.png"/>
+    <link rel="stylesheet" type="text/css" href="./css/summary-aio.css" />
+    <link id="statLink" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper" class="news">
+<!--html snippets-->
+<!--inline[./tpl/globalloading.tpl.html]--> 
+<!--inline[./tpl/pageloading.tpl.html]--> 
+
+<!--page view-->
+<!--inline[./page/index/html/index.html]-->
+<!--inline[./page/home/html/home.html]-->
+<!--inline[./page/detail/html/detail.html]-->
+<!--inline[./page/result/html/result.html]-->
+
+    </div>
+    <audio id="audioBackgroundMusic" style="display:none;" src=""></audio>
+</body>
+</html>
+
+<script type="text/javascript" src="../common/js/common_lib-aio.js"></script>
+<script type="text/javascript" src="../common/js/common_rocket-aio.js"></script>
+<script type="text/javascript" src="../gmu/gmu-aio.js"></script>
+<script type="text/javascript" src="./js/summary-aio.js"></script>
+<script>
+$(function(){
+	rocket.init();
+    setTimeout(function(){
+        $("#audioBackgroundMusic").attr({
+            "src":"http://wap.baidu.com/static/news/other/summary/data/gameOfThrone.mp3", 
+            "autoplay":"autoplay", 
+            "loop":"loop"
+        });
+    }, 5000);	
+})
+</script>

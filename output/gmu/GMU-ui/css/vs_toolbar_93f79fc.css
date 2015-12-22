@@ -1,0 +1,41 @@
+.ui-toolbar-container{position:relative;min-width:320px}
+.ui-toolbar,.ui-toolbar-mask{position:relative;height:40px;z-index:2;text-align:center;font-weight:400;border-top:1px solid #008629;border-bottom:1px solid #008629;color:#fff;background-color:#00902c}
+.ui-toolbar-mask{position:absolute;top:0;bottom:0;left:0;right:0;opacity:.8}
+.ui-toolbar-l,.ui-toolbar-r{position:absolute;height:40px;overflow:hidden}
+.ui-toolbar-title{display:inline-block;font-size:18px;line-height:40px}
+.ui-toolbar-l{top:0;left:0}
+.ui-toolbar-r{top:0;right:0}
+.ui-toolbar-l .ui-toolbar-btn{float:left;margin:4px 0 2px 5px}
+.ui-toolbar-r .ui-toolbar-btn{float:right;margin:4px 5px 4px 0}
+.ui-toolbar-btn{font-size:14px;height:30px;min-width:18px;line-height:30px;background-color:#009e30;border:1px solid #008629;padding:0 8px}
+.ui-toolbar-btn.press{background-color:#930c10}
+.ui-toolbar-btn span{display:none}
+.noimage .ui-toolbar-btn{background-image:none}
+.noimage .ui-toolbar-btn span{display:inline}
+.btn-product,.btn-search,.btn-home,.btn-back,.btn-bigger,.btn-smaller,.btn-dld,.ui-toolbar-group
+{background-image:url(/shijiebei/img/bg-toolbar-webapp.png);background-repeat:no-repeat;background-size:55px 1100px}
+.btn-baidu{width:32px}
+.ui-toolbar-l .btn-product{margin-left:0;border-left:0;width:28px;background-position:12px 4px}
+.btn-search{background-position:6px -31px}
+.btn-back{border:0;height:34px;width:43px;background-position:0 -177px;background-color:transparent;padding-left:7px}
+.btn-back.press{background-color:transparent;background-position:0 -240px}
+.btn-home{background-position:6px -64px}
+.ui-toolbar-func{position:relative;border-bottom:1px solid #D2D2D2;height:37px;background-color:#F4F4F4}
+.ui-toolbar-func .ui-toolbar-btn{float:right;height:37px;min-width:30px;background-color:transparent;border:0;color:#545454}
+.ui-toolbar-group{position:absolute;right:0;top:0;width:96px;background-position:0 -109px}
+.btn-bigger{background-position:8px -460px}
+.btn-smaller{background-position:10px -420px}
+.btn-more{width:34px;padding:0}
+.btn-config{width:14px;background-position:8px -192px}
+.ui-toolbar-func .btn-dld{float:left;width:auto;height:37px;line-height:37px;margin:0 0 0 8px}
+.ui-toolbar-func .btn-dld{background-position:0 -540px}
+#search_view .btn-dld,#searchbox_view .btn-dld{background-position:3px -590px}
+#image_view header{position:absolute;top:0;left:0;right:0;z-index:10}
+#image_view .ui-toolbar{background-image:none;background-color:transparent;border-color:transparent}
+#image_view .ui-toolbar-mask{background-image:none;background-color:#303030;border-top-color:#333;border-bottom-color:#333}
+#image_view .ui-toolbar-btn{background-color:#3c3c3c;border-color:#232323}
+#image_view .ui-toolbar-btn.press{background-color:#2e2e2e}
+#image_view .btn-back{background-position:0 -305px;background-color:transparent;border:0}
+#image_view .btn-back.press{background-color:transparent;background-position:0 -368px}
+#image_view .ui-toolbar-title{font-size:14px}
+#comment_view .ui-toolbar,#searchresult_page .ui-toolbar,#search_country_page .ui-toolbar,#search_position_page .ui-toolbar,#news_page .ui-toolbar,#rank_page .ui-toolbar,#team_page .ui-toolbar{background:url(/shijiebei/img/header_right_bg.png) right top no-repeat;background-size:auto 100%;background-color:#00902c}

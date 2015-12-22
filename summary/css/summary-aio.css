@@ -1,0 +1,56 @@
+@import url("/common/css/common_lib-aio.css?__inline");
+#wrapper{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.color-bottom-border{
+	height: 2px;
+	padding: 0 10px 0 0;
+	background-color: #2a6ac0;
+}
+.color-bottom-border .border-left{
+	float: left;
+	width:126px;
+	height: 2px;
+	background-color: #00902c;
+}
+
+/* 强制不换行，自动加 ... */
+.nowrap{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.summary-common-btn{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 134px;
+    color: #fff;
+    background-color: #0797d1;
+    border: 1px solid #88acbf;
+}
+
+
+@import url("layout.less?__inline");
+@import url("ui-refresh-wrapper.css?__inline");
+@import url("common-backgroundimage.css?__inline");
+@import url("ui-toolbar.css?__inline");
+@import url("../../gmu/GMU-ui/css/vs_toolbar.css?__inline");
+
+/*global*/
+@import url("./globalloading.css?__inline");
+@import url("./pageloading.css?__inline");
+@import url("./header.css?__inline");
+@import url("./footer.css?__inline");
+
+/*page*/
+@import url("../page/index/css/index.css?__inline");
+@import url("../page/home/css/home.css?__inline");
+@import url("../page/detail/css/detail.css?__inline");
+@import url("../page/result/css/result.css?__inline");

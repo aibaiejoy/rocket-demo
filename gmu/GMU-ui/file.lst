@@ -1,0 +1,13 @@
+./mobile/mobile.js
+./mobile/ex.js
+./mobile/control.js
+./mobile/widget.js
+./plugin/add2desktop.js
+./plugin/dialog.js
+./plugin/dropmenu.js
+./plugin/gotop.js
+./plugin/more.js
+./plugin/refresh.js
+./plugin/vs_toolbar.js
+./plugin/vs_quickdelete.js
+./plugin/vs_suggestion.js

@@ -1,0 +1,1 @@
+!function(){rocket.subview.index_header=rocket.subview.extend({el:"#index_page header",events:{click:"onheaderclick"},init:function(e){var i=this;i.options=e,i.show()},registerEvents:function(){},onheaderclick:function(){var e=this,i="";e.navigate(i)}})}(Zepto);

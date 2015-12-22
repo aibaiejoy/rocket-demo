@@ -1,0 +1,4 @@
+.page-footer{}
+.page-footer{position:fixed;left:0;bottom:0;height:50px;width:100%}
+.home-start{margin:0 auto;width:100px;display:block;height:38px;line-height:38px;width:130px;text-decoration:none;text-align:center;color:#585858;background-color:#363034}
+.home-start.able{color:#fff;border:1px solid #88acbf;background-color:#2697d4}

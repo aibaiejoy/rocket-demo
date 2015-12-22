@@ -1,0 +1,44 @@
+.ui-toolbar-container{position:relative;min-width:320px}
+.ui-toolbar,.ui-toolbar-mask{position:relative;height:38px;z-index:2;text-align:center;background:#f4f4f4;font-weight:400;border-top:1px solid #4c8dfb;border-bottom:1px solid #3c80fb;color:#fff;background-color:#3c80fb}
+.ui-toolbar-mask{position:absolute;top:0;bottom:0;left:0;right:0;opacity:.8}
+.ui-toolbar-l,.ui-toolbar-r{position:absolute;height:38px;overflow:hidden}
+.ui-toolbar-title{display:inline-block;font-size:20px;line-height:38px}
+.ui-toolbar-l{top:0;left:0}
+.ui-toolbar-r{top:0;right:0}
+.ui-toolbar-l .ui-toolbar-btn{float:left;margin:4px 0 2px 5px}
+.ui-toolbar-r .ui-toolbar-btn{float:right;margin:4px 5px 4px 0}
+.ui-toolbar-btn{font-size:18px;height:30px;min-width:18px;line-height:30px;border-radius:3px;background-color:#3b80fa;padding:0 8px}
+.ui-toolbar-btn.press{background-color:#3c80fb}
+.ui-toolbar-btn span{display:none}
+.noimage .ui-toolbar-btn{background-image:none}
+.noimage .ui-toolbar-btn span{display:inline}
+.btn-product,.btn-home{background-image:url(/product/img/titlebar.png);background-repeat:no-repeat;background-size:55px 1100px}
+.btn-baidu{background-position:8px 6px}
+.ui-toolbar-l .btn-product{border-radius:0 3px 3px 0;margin-left:0;border-left:0;width:28px;background-position:12px 4px}
+.ui-toolbar-r .btn-baidu{border-radius:3px;width:auto}
+.btn-search{width:28px;background-position:7px -41px}
+.btn-back{background-position:8px -85px}
+.btn-close,.btn-img{height:28px;border:1px solid #3671d9}
+.btn-back.press{}
+.btn-home{background-position:6px -64px}
+.ui-toolbar-func{position:relative;border-bottom:1px solid #D2D2D2;height:37px;background-color:#F4F4F4}
+.ui-toolbar-func .ui-toolbar-btn{float:right;height:37px;background-color:transparent;border:0;border-radius:0;color:#545454}
+.ui-toolbar-func .text{float:left;color:#999;font:400 16px/40px normal}
+.ui-toolbar-func .btn-slide{float:left;width:auto;height:38px;font-size:16px;line-height:38px;margin:0 0 0 8px;padding-left:25px;background-position:4px -228px}
+.ui-toolbar-func .btn-slide.disable{background-position:4px -259px}
+.ui-toolbar-group{position:absolute;right:0;top:0}
+.btn-dld{background-image:url(/product/img/vs_toolbar_morebtn.png);background-repeat:no-repeat;background-size:38px 195px}
+.btn-dld{background-position:7px -36px}
+.ui-toolbar-func .btn-bigger{width:28px;height:26px;margin-top:5px;margin-right:-1px;border:1px solid #ccc;background-position:9px -160px}
+.ui-toolbar-func .btn-smaller{width:28px;height:26px;margin-top:5px;margin-right:10px;border:1px solid #ccc;background-position:14px -197px}
+.btn-more{background-position:7px -123px}
+.btn-config{width:14px;background-position:8px -192px}
+#search_view .btn-dld,#searchbox_view .btn-dld{background-image:url(/product/img/titlebar.png);background-repeat:no-repeat;background-size:55px 1100px;background-position:-25px -34px}
+#image_view header{position:absolute;top:0;left:0;right:0;z-index:10}
+#image_view .ui-toolbar{background-image:none;background-color:transparent;border-color:transparent}
+#image_view .ui-toolbar-mask{background-image:none;background-color:#303030;border-top-color:#333;border-bottom-color:#333}
+#image_view .ui-toolbar-btn{background-color:#3c3c3c;border-color:#232323}
+#image_view .ui-toolbar-btn.press{background-color:#2e2e2e}
+#image_view .btn-back{background-color:transparent}
+#image_view .btn-back.press{}
+#image_view .ui-toolbar-title{font-size:14px}

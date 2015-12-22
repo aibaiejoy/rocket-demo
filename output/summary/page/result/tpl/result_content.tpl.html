@@ -1,0 +1,25 @@
+<div class="show-join-people">已有<span class="people-number"><%=data.user%></span>位网友参与</div>
+<div class="result-content">
+	<table class="result-content-table">
+		<tr>
+			<th class="result-content-table-title"><span>被评估的公司</span></th>
+			<th class="even">绩效总分</th>
+		</tr>
+		<% if(errno == 0){ %>
+		<% _.each(data.list, function(item, i){%>
+		<tr class="<%= item.commented ? 'commented' : '' %>">
+			<td class="logo-icon logo-<%=item.logobg%>">
+				<% if(i < 3){ %>
+				<span class="logo-number"><%=i+1%></span>
+				<% } %>
+			</td>
+			<td class="even overall-score"><%= item.score %>分</td>
+		</tr>
+
+		<% }) %>
+		<% } %>
+	</table>
+	
+</div>
+
+

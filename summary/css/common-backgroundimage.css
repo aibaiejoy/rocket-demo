@@ -1,0 +1,47 @@
+.btn-search, 
+.btn-back,
+.btn-bigger, 
+.btn-smaller, 
+
+.ui-toolbar-func .btn-slide,
+
+.ui-footer-app-download span,
+
+.page-view-list-item-inner div:nth-child(2) span:nth-child(3), 
+.page-view-share span,
+
+.ui-gotop span{
+    border:none;
+    background-image: url("../img/bg-toolbar.png");
+    background-size: 50px 600px;
+    -webkit-background-size: 50px 600px;
+    background-repeat:no-repeat;
+}
+
+
+#searchsubscribe_list .item,
+.subscribe-list .item,
+#preview_view_subscribeinfo .state-btn{
+    background-image: url("/shijiebei/img/bg-subscribe.png");
+    -webkit-background-size: 30px 300px;
+    background-repeat: no-repeat;
+}
+
+#subscribe_view_search .search-box,
+#index_view_search .search-box{
+    background-image: url("/shijiebei/img/bg-simple-searchbox.png");
+    background-size: 25px 75px;
+    -webkit-background-size: 25px 75px;
+    background-repeat: no-repeat;
+}
+
+.btn-config,
+.ui-config .user,
+.ui-config .image-mode,
+.ui-config .mark,
+.ui-config .slide-mode{
+    background-image: url("../img/bg-config.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: 30px 300px;
+}
+

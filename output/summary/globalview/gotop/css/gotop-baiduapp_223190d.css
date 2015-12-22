@@ -1,0 +1,3 @@
+.ui-gotop{width:44px;height:40px;position:absolute;bottom:5px;right:5px;z-index:1000;color:#fff;cursor:pointer;visibility:hidden}
+.ui-gotop.press{background-color:#535353}
+.ui-gotop span{position:relative;display:block;padding:9px 0;background-position:1px -446px;line-height:22px;text-align:center}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>百度新闻特别盘点·挨踢圈绩效大PK</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <link rel="shortcut icon"
+          href="http://m.baidu.com/static/news/webapp/webappandroid/img/webapp-news-logo.png"/>
+    <link rel="apple-touch-icon-precomposed"
+          href="http://m.baidu.com/static/news/webapp/webappandroid/img/webapp-news-logo.png"/>
+    <link rel="stylesheet" type="text/css" href="/static/news/other/summary/summary/css/summary-aio_c7dd434.css" />
+    <link id="statLink" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper" class="news">
+<!--html snippets-->
+<!--全局加载元素-->
+<div class="global-loading">
+    <!--div class="global-loading-logo">
+        <div class="global-loading-anim"></div>
+    </div-->
+    <div class="global-loading-text">数据加载中，请稍后...</div>
+</div>
+ 
+<div style="display:none;">
+    <div class="page-loading">
+        <div class="page-loading-logo">
+            <div class="page-loading-anim"></div>
+        </div>
+        <div class="page-loading-text">数据加载中，请稍候...</div>
+    </div>
+</div>
+ 
+
+<!--page view-->
+<div id="index_page">
+	<div class="index-tip"></div>
+    <div id="index_page_content">
+    	<div class="index-summary-logo">
+    		<div class="summary-text">
+    			<p>你给公司评绩效，我给他们发年终奖！</p>
+    			<p>你敢评我就敢发，<span class="show-rule">查看年终奖规则&gt;&gt;</span></p>
+    		</div>
+    		<div>
+    			<span class="summary-common-btn index-btn-score">我要打分</span>
+    		</div>
+    	</div>
+    </div>
+    <div class="page-footer">
+    	<div class="index-news-logo"></div>
+    </div>
+    <div class="show-rule-dialog">
+        <div class="show-rule-dialog-inner">
+            <h3>年终绩效评比规则</h3>
+            <p>又到一年算帐时，一直都是被考核，今年百度新闻请你当BOSS，给挨踢圈的公司评绩效！</p>
+            <h4>怎么评？</h4>
+            <p>选择感兴趣的公司（至少3家），看看各家交出的“绩效报告”，对他们2014年的表现进行打分。5分么么哒，1分从此是路人。</p>
+            <h4>有啥用？</h4>
+            <p>打分匿名提交，计入总分榜，最终会影响这些公司的绩效大排名。绩效和年终奖挂钩，也就是说，这些公司的“年终奖”将由你来决定！</p>
+            <h4>“年终奖”发点啥？</h4>
+            <p>绩效排行榜根据网友评分实时更新，截至2月17日确定最终排名成绩。坐上前八把交椅的公司将获得百度新闻制作颁发的“荣誉年终奖”证书，以正名分。至于倒数三位，就呵呵了。</p>
+            <div class="show-rule-dialog-inner-after"></div>
+            <div class="show-rule-dialog-inner-close"></div>
+        </div>
+    </div>
+</div>
+
+<div id="home_page">
+	<div class="home-tip"></div>
+    <div id="home_page_content">
+    	
+    </div>
+    <div class="page-footer">
+    	<a class="home-start" href="javascript:void(0)">走起打分</a>
+    </div>
+    
+</div>
+
+<div id="detail_page">
+    <div id="detail_page_content">
+    	
+    </div>
+    
+</div>
+
+<div id="result_page">
+	<div class="result-tip">
+        <img src="/static/news/other/summary/summary/page/result/img/result-tip_f9e9757.png">
+    </div>
+    <div id="result_page_content">
+    	<div class="result-summary-logo">
+    		<div class="summary-text">
+    			<p>你给公司评绩效，我给他年终奖！</p>
+    			<p>你敢评我就敢发，<span class="show-rule">查看年终奖规则&gt;&gt;</span></p>
+    		</div>
+    		<div>
+    			<span class="summary-common-btn result-btn-score">我要打分</span>
+    		</div>
+    	</div>
+    </div>
+    <div class="result-footer">
+        <div class="share-btn">立即分享</div>
+    </div>
+</div>
+
+
+    </div>
+    <audio id="audioBackgroundMusic" style="display:none;" src=""></audio>
+</body>
+</html>
+
+<script type="text/javascript" src="/static/news/other/summary/common/js/common_lib-aio_1e901d4.js"></script>
+<script type="text/javascript" src="/static/news/other/summary/common/js/common_rocket-aio_e623a28.js"></script>
+<script type="text/javascript" src="/static/news/other/summary/gmu/gmu-aio_9c2a61d.js"></script>
+<script type="text/javascript" src="/static/news/other/summary/summary/js/summary-aio_895924b.js"></script>
+<script>
+$(function(){
+	rocket.init();
+    setTimeout(function(){
+        $("#audioBackgroundMusic").attr({
+            "src":"http://wap.baidu.com/static/news/other/summary/data/gameOfThrone.mp3", 
+            "autoplay":"autoplay", 
+            "loop":"loop"
+        });
+    }, 5000);	
+})
+</script>

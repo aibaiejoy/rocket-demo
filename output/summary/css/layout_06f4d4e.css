@@ -1,0 +1,48 @@
+.pl10{padding-left:10px}
+.grid-layout{padding:0 0 0 10px}
+.grid-layout .grid{overflow:hidden}
+.grid-layout .grid .bd{border:1px solid #ccc}
+.grid-layout .grid .cell{width:50%;float:left}
+.grid-layout .grid .cell .cell-content{margin-right:10px;overflow:hidden}
+.grid-layout .grid .cell .cell-content img{width:100%;vertical-align:middle}
+.grid-layout .grid .cell .cell-content .cell-title{font-size:13px;line-height:1.5em;color:#262b31;padding:7px 0 16px}
+.grid-layout .grid .cell:nth-last-child(1) .cell-content .cell-title,.grid-layout .grid .cell:nth-last-child(2) .cell-content .cell-title{padding-bottom:0}
+.grid-layout .col-3 .cell{width:33.33333333333334%}
+.grid-layout .col-3 .cell .bd{padding:2px}
+.special-title{padding:0 10px 10px}
+.special-title .special-title-txt{border-bottom:2px solid #2a6ac0}
+.special-title .special-title-txt header{border-bottom:2px solid #00902c;margin-bottom:-2px;width:auto;display:inline-block;font-size:18px;line-height:1.5em}
+.special-title .special-title-txt header small{font-size:13px;margin-left:5px}
+.special-title .special-title-txt span{float:right;margin-top:3px;margin-right:0}
+.gray-line{color:#c5c5c5;font-size:10px;margin-top:2px;vertical-align:middle;display:inline-block;padding:0 5px 0 8px}
+.fb{_width:100%;overflow:hidden;clear:both}
+.c20l,.c25l,.c33l,.c40l,.c38l,.c50l,.c60l,.c62l,.c66l,.c75l,.c80l{float:left}
+.c20r,.c25r,.c33r,.c40r,.c38r,.c50r,.c60r,.c66r,.c62r,.c75r,.c80r{float:right;margin-left:-5px}
+.c20l,.c20r{width:20%}
+.c40l,.c40r{width:40%}
+.c60l,.c60r{width:60%}
+.c80l,.c80r{width:80%}
+.c25l,.c25r{width:25%}
+.c33l,.c33r{width:33.333%}
+.c50l,.c50r{width:50%}
+.c66l,.c66r{width:66.666%}
+.c75l,.c75r{width:75%}
+.c38l,.c38r{width:38.2%}
+.c62l,.c62r{width:61.8%}
+.ta-r{text-align:right}
+.ta-l{text-align:left}
+.ta-c{text-align:center}
+.p{padding:20px}
+.pt{padding-top:20px}
+.pr{padding-right:20px}
+.pb{padding-bottom:20px}
+.pl{padding-left:20px}
+.ptb{padding:20px 0}
+.plr{padding:0 20px}
+.bd{border:2px solid #fff}
+.bdr{border-right:2px solid #fff}
+.bdl{border-left:2px solid #fff}
+.bdlr{border-left:2px solid #fff;border-right:2px solid #fff}
+.bdt{border-top:2px solid #fff}
+.bdb{border-bottom:2px solid #fff}
+.bdtb{border-top:2px solid #fff;border-bottom:2px solid #fff}

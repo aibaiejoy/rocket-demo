@@ -1,0 +1,202 @@
+/*页面视图id，与action同名，以_page为后缀*/
+#result_page{
+    /*默认不展示*/
+    display:none;
+
+    /*绝对定位*/
+    position:absolute;
+
+    /*撑满整个父容器*/
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    /*最低高度，确保即使没内容，loading也可以展示，同时能遮住下方内容*/
+}
+
+#result_page_content{
+    /*作为绝对定位的loading样式的容器，需要使用relative定位*/
+    position:relative;
+    /*height: 100%;*/
+    /*min-height: 600px;
+    margin-top:-1px;*/
+    min-height: 300px;
+}
+
+.result-tip{
+    width:100%;
+    
+}
+.result-tip img{
+    width:100%;
+}
+
+/* result  content */
+.show-join-people{
+    height: 40px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+.show-join-people .people-number{
+    color:#ce3104;
+    padding:0 5px;
+}
+
+.result-content{
+    margin-top: 0px;
+    /*height: 399px;*/
+    border: 1px solid #e3bcc1;
+    border: 1px 0;
+    overflow-y: visible;
+    overflow-x: hidden;
+    background: url('/static/news/other/summary/summary/page/result/img/datail-score-bg_05868c8.jpg') repeat-x left bottom;
+    background-size: auto 5px;
+    padding-bottom: 5px;
+}
+.result-content .result-content-table{
+    width:100%;
+
+}
+.result-content .result-content-table th{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+.result-content .result-content-table td{
+    border-top:1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+.result-content .result-content-table .even{
+    border-left:1px solid #caacb0;
+}
+.result-content .result-content-table td .logo-number{
+    position: absolute;
+    left:20px;
+    top:8px;
+    font-size: 20px;
+    color:#735823;
+}
+.result-content-table tr.commented{
+    background-color: #FBF6E1;
+}
+.result-content-table td img{
+    height: 34px;
+    line-height: 34px;
+}
+.result-content-table th{
+    font-weight: bold;
+}
+.result-content-table td.overall-score{
+    color:#D23205;
+    font-size: 20px;
+}
+
+.result-footer{
+    height: 100px;
+    width:100%;
+    background: url("/static/news/other/summary/summary/page/result/img/result-footer-bg_fee1297.png") no-repeat 0 0 ;
+    background-size: 100% auto;
+    padding-top:12px;
+    /*position: absolute;
+    left:0;
+    bottom:0;*/
+
+}
+.result-footer .share-btn{
+    width:114px;
+    height: 34px;
+    line-height: 34px;
+    border:1px solid #88acbf;
+    color:#fff;
+    margin-top:16px;
+    background-color:#0895d1;
+    text-align: center;
+    margin: 0 auto;
+}
+@media screen and (max-width: 320px ) {
+    .result-footer{
+        height: 84px;
+    }
+    /*.result-content{
+        height: 332px;
+    }*/
+}
+@media screen and (max-width: 320px ) and (max-height:480px) {
+    .result-footer{
+        height: 80px;
+    }
+    /*.result-content{
+        height: 234px;
+    }*/
+}
+
+.result-content .logo-baidu{
+    background: url('/static/news/other/summary/summary/page/result/img/logo-baidu_7e18f21.png') no-repeat ;
+}
+.result-content .logo-alibaba{
+    background: url('/static/news/other/summary/summary/page/result/img/logo-alibaba_b5cf4bd.png') no-repeat ;   
+}
+.result-content .logo-tengxun{
+    background: url('/static/news/other/summary/summary/page/result/img/logo-tengxun_76d76ed.png') no-repeat ;
+}
+.result-content .logo-xiaomi{
+    background: url('/static/news/other/summary/summary/page/result/img/logo-xiaomi_4a7e883.png') no-repeat ;
+}
+.result-content .logo-jd{
+    background: url('/static/news/other/summary/summary/page/result/img/logo-jd_d5a38c2.png') no-repeat ;
+}
+.result-content .logo-jumei{
+    background: url('/static/news/other/summary/summary/page/result/img/logo-jumei_01a3233.png') no-repeat ;
+}
+.result-content .logo-chuizi{
+    background: url('/static/news/other/summary/summary/page/result/img/logo-chuizi_0d710c2.png') no-repeat ;
+}
+.result-content .logo-huawei{
+    background: url('/static/news/other/summary/summary/page/result/img/logo-huawei_a1ecd0e.png') no-repeat ;
+}
+.result-content .logo-momo{
+    background: url('/static/news/other/summary/summary/page/result/img/logo-momo_82c8499.png') no-repeat ;
+}
+.result-content .logo-360{
+    background: url('/static/news/other/summary/summary/page/result/img/logo-360_4932b6f.png') no-repeat ;
+}
+.result-content .logo-lenovo{
+    background: url('/static/news/other/summary/summary/page/result/img/logo-lenovo_20a106f.png') no-repeat ;
+}
+.result-content .logo-icon{
+    height: 35px;
+    background-size: auto 30px;
+    background-position: center center;
+}
+
+
+.share-rank-dialog{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8) url('/static/news/other/summary/summary/page/result/img/result-share-bg_48342e0.png') no-repeat;
+    background-size: 100% auto;
+}
+.share-rank-dialog-other{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8) url('/static/news/other/summary/summary/page/result/img/result-share-other-bg_c8331cd.png') no-repeat center 20%;
+    background-size: 100% auto;   
+}
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+!function(e){rocket.pageview.home=rocket.pageview.extend({el:"#home_page",init:function(t){var o=this;o.setup(new rocket.subview.home_header(e.extend({},t),o)),o.setup(new rocket.subview.home_footer(e.extend({},t),o)),o.setup(new rocket.subview.home_content(e.extend({},t),o))}})}(Zepto);
